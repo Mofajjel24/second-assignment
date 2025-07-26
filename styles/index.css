@@ -467,3 +467,158 @@ color: #111111;
     font-size: 17px;
     line-height: 20px;
 }
+
+/* Newsletter Section */
+.newsletter-section {
+    width: 100%;
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    padding: 115px 34px;
+    margin-top: auto;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.newsletter-title {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.newsletter-form {
+display: flex;
+flex-direction: column;
+gap: 12px;
+width: 100%;
+background-color: #ffffff;
+padding: 12px;
+border-radius: 4px;
+}
+
+ .newsletter-input {
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+color: rgba(0, 0, 0, 0.5);
+padding: 7px;
+flex: 1;
+ }
+        
+.newsletter-btn {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #e95a08;
+    padding: 7px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-btn:hover {
+    background-color: #d14907;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 18px rgba(136, 136, 136, 1);
+    padding: 29px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+}
+
+.footer-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+}
+
+.footer-link {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #374151;
+}
+
+.footer-social {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.social-icon {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
