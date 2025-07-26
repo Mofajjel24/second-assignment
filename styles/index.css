@@ -28,3 +28,64 @@ font-family: inherit;
     outline: none;
     font-family: inherit;
 }
+
+/* Layout components */
+.main-container {
+display: flex;
+flex-direction: column;
+gap: 132px;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+}
+        
+.content-wrapper {
+width: 100%;
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 16px;
+}
+        
+/* Header */
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-top: 14px;
+padding: 0 16px;
+}
+        
+.logo {
+width: 80px;
+height: auto;
+}
+        
+.nav-menu {
+display: none;
+gap: 29px;
+align-items: center;
+}
+        
+.nav-item {
+font-size: 16px;
+font-weight: 400;
+color: #8987a1;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+        
+.nav-item.active {
+font-weight: 700;
+color: #252432;
+}
+        
+.nav-item:hover {
+color: #252432;
+}
+        
+.cart-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
