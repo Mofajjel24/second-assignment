@@ -164,27 +164,306 @@ color: #000000;
 color: #e95a08;
 }
         
-        .title-line-2 {
-            font-size: 39px;
-            font-family: 'Noto Serif', serif;
-            font-weight: 700;
-            line-height: 53px;
-            text-align: left;
-            color: #e95a08;
-        }
+.title-line-2 {
+    font-size: 39px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    color: #e95a08;
+}
+
+.hero-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 12px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ /* Products Section */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    align-items: center;
+    width: 100%;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    width: 100%;
+    padding: 0 34px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+.section-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    width: 100%;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    width: 100%;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+    width: 100%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+}
+
+.product-name {
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+color: #111111;
+}
         
-        .hero-description {
-            font-size: 13px;
-            font-weight: 400;
-            line-height: 16px;
-            text-align: left;
-            color: rgba(0, 0, 0, 0.5);
-            width: 100%;
-            margin-top: 12px;
-        }
-        
-        .hero-image {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
+.product-price {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #111111;
+}
+
+.add-to-cart-btn {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #e95a08;
+    padding: 7px 20px;
+    border-radius: 4px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d14907;
+    transform: translateY(-2px);
+}
+
+.add-to-cart-btn:active {
+    transform: translateY(0);
+}
+
+/* Trust Section */
+.trust-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 49px;
+}
+
+.trust-badge {
+    width: 172px;
+    height: auto;
+}
+
+.trust-content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    width: 100%;
+}
+
+.trust-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trust-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+}
+
+.trust-title {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+}
+
+.trust-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+/* Deals Section */
+.deals-section {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    width: 100%;
+}
+
+.deals-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    width: 100%;
+    padding: 0 76px;
+}
+
+.deals-title {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+}
+
+.deals-title .orange {
+    color: #e95a08;
+}
+
+.deals-title .black {
+    color: #000000;
+}
+
+.deals-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 100%;
+}
+
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+.deal-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #c7c7c7;
+}
+
+.deal-card-small {
+    height: 120px;
+}
+
+.deal-card-large {
+    height: 200px;
+}
+
+.deal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 29px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.deal-text {
+    font-size: 12px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.deal-link {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+    text-decoration: underline;
+    color: #ffffff;
+    transition: opacity 0.3s ease;
+}
+
+.deal-link:hover {
+    opacity: 0.8;
+}
+
+.deal-large .deal-text {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.deal-large .deal-link {
+    font-size: 17px;
+    line-height: 20px;
+}
