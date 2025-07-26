@@ -89,3 +89,102 @@ color: #252432;
   align-items: center;
   gap: 8px;
 }
+
+.cart-icon {
+  font-size: 20px; 
+  color: #333;      
+}
+
+.cart-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.cart-text {
+font-size: 16px;
+font-weight: 400;
+color: #000000;
+
+
+}
+
+
+ /* Hero Section */
+.hero-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+gap: 72px;
+}
+        
+.hero-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+gap: 48px;
+}
+        
+.hero-main {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+        
+.hero-text {
+display: flex;
+flex-direction: column;
+gap: 7px;
+align-items: flex-end;
+width: 100%;
+}
+        
+.hero-title {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+}
+        
+.title-line-1 {
+font-size: 39px;
+font-family: 'Noto Serif', serif;
+font-weight: 700;
+line-height: 53px;
+text-align: left;
+}
+        
+.title-always {
+color: #000000;
+}
+        
+.title-fresh {
+color: #e95a08;
+}
+        
+        .title-line-2 {
+            font-size: 39px;
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            line-height: 53px;
+            text-align: left;
+            color: #e95a08;
+        }
+        
+        .hero-description {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            margin-top: 12px;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
