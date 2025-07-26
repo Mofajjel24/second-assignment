@@ -471,7 +471,7 @@ color: #111111;
 /* Newsletter Section */
 .newsletter-section {
     width: 100%;
-    background-image: url('./assets/news-letter-bg.png');
+    background-image: url('../assets/news-letter-bg.png');
     background-size: cover;
     background-position: center;
     background-color: #ffffff;
@@ -622,3 +622,302 @@ flex: 1;
 .social-icon:hover {
     transform: scale(1.1);
 }
+
+ /* Responsive media queries */
+        @media (min-width: 640px) {
+            .content-wrapper {
+                padding: 0 24px;
+            }
+            
+            .header {
+                padding: 0 24px;
+            }
+            
+            .logo {
+                width: 107px;
+            }
+            
+            .title-line-1, .title-line-2 {
+                font-size: 52px;
+                line-height: 71px;
+            }
+            
+            .hero-description {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            
+            .section-title {
+                font-size: 40px;
+                line-height: 55px;
+            }
+            
+            .section-description {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+            
+            .product-name, .product-price {
+                font-size: 18px;
+                line-height: 22px;
+            }
+            
+            .add-to-cart-btn {
+                font-size: 13px;
+                line-height: 16px;
+                padding: 10px 27px;
+            }
+            
+            .trust-title {
+                font-size: 40px;
+                line-height: 54px;
+            }
+            
+            .trust-description {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            
+            .deals-title {
+                font-size: 40px;
+                line-height: 55px;
+            }
+            
+            .newsletter-title {
+                font-size: 40px;
+                line-height: 55px;
+            }
+            
+            .newsletter-form {
+                flex-direction: row;
+                gap: 0;
+            }
+            
+            .newsletter-input {
+                font-size: 13px;
+                line-height: 16px;
+                padding: 10px;
+            }
+            
+            .newsletter-btn {
+                font-size: 13px;
+                line-height: 16px;
+                padding: 10px 27px;
+            }
+            
+            .footer-description {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            
+            .footer-link {
+                font-size: 13px;
+                line-height: 16px;
+            }
+            
+            .social-icon {
+                width: 29px;
+                height: 29px;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .main-container {
+                gap: 176px;
+            }
+            
+            .nav-menu {
+                display: flex;
+            }
+            
+            .hero-content {
+                gap: 96px;
+            }
+            
+            .hero-main {
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .hero-text {
+                width: 50%;
+            }
+            
+            .hero-image {
+                width: 50%;
+            }
+            
+            .products-section {
+                gap: 38px;
+            }
+            
+            .section-header {
+                padding: 0 45px;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 24px;
+            }
+            
+            .trust-content {
+                flex-direction: row;
+                gap: 30px;
+            }
+            
+            .trust-image {
+                width: 46%;
+            }
+            
+            .trust-text {
+                width: 46%;
+            }
+            
+            .deals-grid {
+                flex-direction: row;
+                gap: 22px;
+            }
+            
+            .deals-left {
+                width: 32%;
+            }
+            
+            .deals-right {
+                width: 68%;
+            }
+            
+            .newsletter-section {
+                padding: 154px 45px;
+            }
+            
+            .footer-main {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .footer-brand {
+                width: 32%;
+            }
+            
+            .footer-links {
+                flex-direction: row;
+                width: 28%;
+                justify-content: space-between;
+            }
+            
+            .footer-social {
+                width: 18%;
+                justify-content: space-between;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .logo {
+                width: 134px;
+            }
+            
+            .title-line-1, .title-line-2 {
+                font-size: 65px;
+                line-height: 89px;
+            }
+            
+            .hero-description {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            
+            .section-title {
+                font-size: 50px;
+                line-height: 69px;
+            }
+            
+            .section-description {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            
+            .product-name, .product-price {
+                font-size: 22px;
+                line-height: 27px;
+            }
+            
+            .add-to-cart-btn {
+                font-size: 16px;
+                line-height: 20px;
+                padding: 12px 34px;
+            }
+            
+            .trust-title {
+                font-size: 50px;
+                line-height: 68px;
+            }
+            
+            .trust-description {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            
+            .deals-title {
+                font-size: 50px;
+                line-height: 69px;
+            }
+            
+            .deal-text {
+                font-size: 20px;
+                line-height: 28px;
+            }
+            
+            .deal-link {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            
+            .deal-large .deal-text {
+                font-size: 40px;
+                line-height: 55px;
+            }
+            
+            .deal-large .deal-link {
+                font-size: 28px;
+                line-height: 34px;
+            }
+            
+            .newsletter-title {
+                font-size: 50px;
+                line-height: 69px;
+            }
+            
+            .newsletter-input {
+                font-size: 16px;
+                line-height: 20px;
+                padding: 12px;
+            }
+            
+            .newsletter-btn {
+                font-size: 16px;
+                line-height: 20px;
+                padding: 12px 34px;
+            }
+            
+            .footer-description {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            
+            .footer-link {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            
+            .social-icon {
+                width: 36px;
+                height: 36px;
+            }
+        }
+
+
